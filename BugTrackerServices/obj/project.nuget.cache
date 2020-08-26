@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "uYj3x3G564qgmpVtRrF1HrjIb7m4ezAdTU+OgzdUv7leNi/uTDLJpncWtDsMVLg/dPw6JbcSkotUE15IYWjRYg==",
+  "success": true,
+  "projectFilePath": "/home/bernardo/Desktop/bugtracker/BugTrackerServices/BugTrackerServices.csproj",
+  "expectedPackageFiles": [
+    "/home/bernardo/.nuget/packages/microsoft.netcore.app.host.linux-x64/3.1.6/microsoft.netcore.app.host.linux-x64.3.1.6.nupkg.sha512"
+  ],
+  "logs": []
+}

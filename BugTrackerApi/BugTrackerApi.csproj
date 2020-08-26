@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\BugTrackerDomain\BugTrackerDomain.csproj" />
+    <ProjectReference Include="..\BugTrackerPersistence\BugTrackerPersistence.csproj" />
+    <ProjectReference Include="..\BugTrackerServices\BugTrackerServices.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+</Project>

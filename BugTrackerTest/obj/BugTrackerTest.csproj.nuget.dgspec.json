@@ -1,0 +1,366 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/bernardo/Desktop/bugtracker/BugTrackerTest/BugTrackerTest.csproj": {}
+  },
+  "projects": {
+    "/home/bernardo/Desktop/bugtracker/BugTrackerApi/BugTrackerApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/bernardo/Desktop/bugtracker/BugTrackerApi/BugTrackerApi.csproj",
+        "projectName": "BugTrackerApi",
+        "projectPath": "/home/bernardo/Desktop/bugtracker/BugTrackerApi/BugTrackerApi.csproj",
+        "packagesPath": "/home/bernardo/.nuget/packages/",
+        "outputPath": "/home/bernardo/Desktop/bugtracker/BugTrackerApi/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/bernardo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/bernardo/Desktop/bugtracker/BugTrackerDomain/BugTrackerDomain.csproj": {
+                "projectPath": "/home/bernardo/Desktop/bugtracker/BugTrackerDomain/BugTrackerDomain.csproj"
+              },
+              "/home/bernardo/Desktop/bugtracker/BugTrackerPersistence/BugTrackerPersistence.csproj": {
+                "projectPath": "/home/bernardo/Desktop/bugtracker/BugTrackerPersistence/BugTrackerPersistence.csproj"
+              },
+              "/home/bernardo/Desktop/bugtracker/BugTrackerServices/BugTrackerServices.csproj": {
+                "projectPath": "/home/bernardo/Desktop/bugtracker/BugTrackerServices/BugTrackerServices.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[3.1.6, 3.1.6]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/bernardo/Desktop/bugtracker/BugTrackerDomain/BugTrackerDomain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/bernardo/Desktop/bugtracker/BugTrackerDomain/BugTrackerDomain.csproj",
+        "projectName": "BugTrackerDomain",
+        "projectPath": "/home/bernardo/Desktop/bugtracker/BugTrackerDomain/BugTrackerDomain.csproj",
+        "packagesPath": "/home/bernardo/.nuget/packages/",
+        "outputPath": "/home/bernardo/Desktop/bugtracker/BugTrackerDomain/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/bernardo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[3.1.6, 3.1.6]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/bernardo/Desktop/bugtracker/BugTrackerPersistence/BugTrackerPersistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/bernardo/Desktop/bugtracker/BugTrackerPersistence/BugTrackerPersistence.csproj",
+        "projectName": "BugTrackerPersistence",
+        "projectPath": "/home/bernardo/Desktop/bugtracker/BugTrackerPersistence/BugTrackerPersistence.csproj",
+        "packagesPath": "/home/bernardo/.nuget/packages/",
+        "outputPath": "/home/bernardo/Desktop/bugtracker/BugTrackerPersistence/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/bernardo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/bernardo/Desktop/bugtracker/BugTrackerDomain/BugTrackerDomain.csproj": {
+                "projectPath": "/home/bernardo/Desktop/bugtracker/BugTrackerDomain/BugTrackerDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[3.1.6, 3.1.6]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/bernardo/Desktop/bugtracker/BugTrackerServices/BugTrackerServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/bernardo/Desktop/bugtracker/BugTrackerServices/BugTrackerServices.csproj",
+        "projectName": "BugTrackerServices",
+        "projectPath": "/home/bernardo/Desktop/bugtracker/BugTrackerServices/BugTrackerServices.csproj",
+        "packagesPath": "/home/bernardo/.nuget/packages/",
+        "outputPath": "/home/bernardo/Desktop/bugtracker/BugTrackerServices/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/bernardo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/bernardo/Desktop/bugtracker/BugTrackerDomain/BugTrackerDomain.csproj": {
+                "projectPath": "/home/bernardo/Desktop/bugtracker/BugTrackerDomain/BugTrackerDomain.csproj"
+              },
+              "/home/bernardo/Desktop/bugtracker/BugTrackerPersistence/BugTrackerPersistence.csproj": {
+                "projectPath": "/home/bernardo/Desktop/bugtracker/BugTrackerPersistence/BugTrackerPersistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[3.1.6, 3.1.6]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/bernardo/Desktop/bugtracker/BugTrackerTest/BugTrackerTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/bernardo/Desktop/bugtracker/BugTrackerTest/BugTrackerTest.csproj",
+        "projectName": "BugTrackerTest",
+        "projectPath": "/home/bernardo/Desktop/bugtracker/BugTrackerTest/BugTrackerTest.csproj",
+        "packagesPath": "/home/bernardo/.nuget/packages/",
+        "outputPath": "/home/bernardo/Desktop/bugtracker/BugTrackerTest/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/bernardo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/bernardo/Desktop/bugtracker/BugTrackerApi/BugTrackerApi.csproj": {
+                "projectPath": "/home/bernardo/Desktop/bugtracker/BugTrackerApi/BugTrackerApi.csproj"
+              },
+              "/home/bernardo/Desktop/bugtracker/BugTrackerDomain/BugTrackerDomain.csproj": {
+                "projectPath": "/home/bernardo/Desktop/bugtracker/BugTrackerDomain/BugTrackerDomain.csproj"
+              },
+              "/home/bernardo/Desktop/bugtracker/BugTrackerPersistence/BugTrackerPersistence.csproj": {
+                "projectPath": "/home/bernardo/Desktop/bugtracker/BugTrackerPersistence/BugTrackerPersistence.csproj"
+              },
+              "/home/bernardo/Desktop/bugtracker/BugTrackerServices/BugTrackerServices.csproj": {
+                "projectPath": "/home/bernardo/Desktop/bugtracker/BugTrackerServices/BugTrackerServices.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
