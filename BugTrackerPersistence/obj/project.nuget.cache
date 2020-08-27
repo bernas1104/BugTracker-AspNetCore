@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CQ6lEyucMHDZMQrXD92ilrLWH82gKzSSxcCvFlJyWa8iEfNV6dHBa9Ji8SY7g5rvUotddcOl58EF+yBpKKiEog==",
+  "dgSpecHash": "9QeHufrbkFGFmXhwSTbilqkpoT6yKVs48nDOb758bYYwGHCjckIg7zYErD34yQ9NOckwldw7uI0w3dH9HwoYoA==",
   "success": true,
   "projectFilePath": "/home/bernardo/Desktop/bugtracker/BugTrackerPersistence/BugTrackerPersistence.csproj",
   "expectedPackageFiles": [
@@ -26,8 +26,7 @@
     "/home/bernardo/.nuget/packages/system.collections.immutable/1.7.1/system.collections.immutable.1.7.1.nupkg.sha512",
     "/home/bernardo/.nuget/packages/system.componentmodel.annotations/4.7.0/system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "/home/bernardo/.nuget/packages/system.diagnostics.diagnosticsource/4.7.1/system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
-    "/home/bernardo/.nuget/packages/system.runtime.compilerservices.unsafe/4.6.0/system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
-    "/home/bernardo/.nuget/packages/microsoft.netcore.app.host.linux-x64/3.1.6/microsoft.netcore.app.host.linux-x64.3.1.6.nupkg.sha512"
+    "/home/bernardo/.nuget/packages/system.runtime.compilerservices.unsafe/4.6.0/system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
   ],
   "logs": []
 }

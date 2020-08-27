@@ -774,7 +774,7 @@
     ".NETCoreApp,Version=v3.1": [
       "BugTrackerDomain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 3.1.7",
-      "Npgsql.EntityFrameworkCore.PostgreSQL >= *"
+      "Npgsql.EntityFrameworkCore.PostgreSQL >= 3.1.4"
     ]
   },
   "packageFolders": {
@@ -826,7 +826,7 @@
           },
           "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",
-            "version": "[*, )"
+            "version": "[3.1.4, )"
           }
         },
         "imports": [
@@ -839,12 +839,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.linux-x64",
-            "version": "[3.1.6, 3.1.6]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

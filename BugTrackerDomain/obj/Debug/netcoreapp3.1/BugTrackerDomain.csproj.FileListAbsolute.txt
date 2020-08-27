@@ -1,0 +1,9 @@
+/home/bernardo/Desktop/bugtracker/BugTrackerDomain/obj/Debug/netcoreapp3.1/BugTrackerDomain.csprojAssemblyReference.cache
+/home/bernardo/Desktop/bugtracker/BugTrackerDomain/obj/Debug/netcoreapp3.1/BugTrackerDomain.AssemblyInfoInputs.cache
+/home/bernardo/Desktop/bugtracker/BugTrackerDomain/obj/Debug/netcoreapp3.1/BugTrackerDomain.AssemblyInfo.cs
+/home/bernardo/Desktop/bugtracker/BugTrackerDomain/obj/Debug/netcoreapp3.1/BugTrackerDomain.csproj.CoreCompileInputs.cache
+/home/bernardo/Desktop/bugtracker/BugTrackerDomain/bin/Debug/netcoreapp3.1/BugTrackerDomain.deps.json
+/home/bernardo/Desktop/bugtracker/BugTrackerDomain/bin/Debug/netcoreapp3.1/BugTrackerDomain.dll
+/home/bernardo/Desktop/bugtracker/BugTrackerDomain/bin/Debug/netcoreapp3.1/BugTrackerDomain.pdb
+/home/bernardo/Desktop/bugtracker/BugTrackerDomain/obj/Debug/netcoreapp3.1/BugTrackerDomain.dll
+/home/bernardo/Desktop/bugtracker/BugTrackerDomain/obj/Debug/netcoreapp3.1/BugTrackerDomain.pdb

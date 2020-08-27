@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 
 using BugTrackerDomain;
+using BugTrackerPersistence.Mappings;
 
 namespace BugTrackerPersistence.Context {
   public class BugTrackerDbContext : DbContext {
@@ -11,7 +12,8 @@ namespace BugTrackerPersistence.Context {
       : base(options) {}
 
     protected override void OnModelCreating(ModelBuilder builder) {
-      // TODO
+      builder.ApplyConfiguration(new UserMapping());
+      builder.ApplyConfiguration(new UserTokenMapping());
     }
   }
 }

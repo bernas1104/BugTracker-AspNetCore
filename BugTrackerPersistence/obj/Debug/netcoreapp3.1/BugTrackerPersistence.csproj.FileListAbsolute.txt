@@ -1,0 +1,12 @@
+/home/bernardo/Desktop/bugtracker/BugTrackerPersistence/obj/Debug/netcoreapp3.1/BugTrackerPersistence.csprojAssemblyReference.cache
+/home/bernardo/Desktop/bugtracker/BugTrackerPersistence/obj/Debug/netcoreapp3.1/BugTrackerPersistence.AssemblyInfoInputs.cache
+/home/bernardo/Desktop/bugtracker/BugTrackerPersistence/obj/Debug/netcoreapp3.1/BugTrackerPersistence.AssemblyInfo.cs
+/home/bernardo/Desktop/bugtracker/BugTrackerPersistence/obj/Debug/netcoreapp3.1/BugTrackerPersistence.csproj.CoreCompileInputs.cache
+/home/bernardo/Desktop/bugtracker/BugTrackerPersistence/bin/Debug/netcoreapp3.1/BugTrackerPersistence.deps.json
+/home/bernardo/Desktop/bugtracker/BugTrackerPersistence/bin/Debug/netcoreapp3.1/BugTrackerPersistence.dll
+/home/bernardo/Desktop/bugtracker/BugTrackerPersistence/bin/Debug/netcoreapp3.1/BugTrackerPersistence.pdb
+/home/bernardo/Desktop/bugtracker/BugTrackerPersistence/bin/Debug/netcoreapp3.1/BugTrackerDomain.dll
+/home/bernardo/Desktop/bugtracker/BugTrackerPersistence/bin/Debug/netcoreapp3.1/BugTrackerDomain.pdb
+/home/bernardo/Desktop/bugtracker/BugTrackerPersistence/obj/Debug/netcoreapp3.1/BugTrackerPersistence.csproj.CopyComplete
+/home/bernardo/Desktop/bugtracker/BugTrackerPersistence/obj/Debug/netcoreapp3.1/BugTrackerPersistence.dll
+/home/bernardo/Desktop/bugtracker/BugTrackerPersistence/obj/Debug/netcoreapp3.1/BugTrackerPersistence.pdb

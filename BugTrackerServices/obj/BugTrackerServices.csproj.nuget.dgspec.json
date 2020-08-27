@@ -4,14 +4,14 @@
     "/home/bernardo/Desktop/bugtracker/BugTrackerServices/BugTrackerServices.csproj": {}
   },
   "projects": {
-    "/home/bernardo/Desktop/bugtracker/BugTrackerServices/BugTrackerServices.csproj": {
+    "/home/bernardo/Desktop/bugtracker/BugTrackerDomain/BugTrackerDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/bernardo/Desktop/bugtracker/BugTrackerServices/BugTrackerServices.csproj",
-        "projectName": "BugTrackerServices",
-        "projectPath": "/home/bernardo/Desktop/bugtracker/BugTrackerServices/BugTrackerServices.csproj",
+        "projectUniqueName": "/home/bernardo/Desktop/bugtracker/BugTrackerDomain/BugTrackerDomain.csproj",
+        "projectName": "BugTrackerDomain",
+        "projectPath": "/home/bernardo/Desktop/bugtracker/BugTrackerDomain/BugTrackerDomain.csproj",
         "packagesPath": "/home/bernardo/.nuget/packages/",
-        "outputPath": "/home/bernardo/Desktop/bugtracker/BugTrackerServices/obj/",
+        "outputPath": "/home/bernardo/Desktop/bugtracker/BugTrackerDomain/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -48,12 +48,155 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[3.1.6, 3.1.6]"
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
             }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/bernardo/Desktop/bugtracker/BugTrackerPersistence/BugTrackerPersistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/bernardo/Desktop/bugtracker/BugTrackerPersistence/BugTrackerPersistence.csproj",
+        "projectName": "BugTrackerPersistence",
+        "projectPath": "/home/bernardo/Desktop/bugtracker/BugTrackerPersistence/BugTrackerPersistence.csproj",
+        "packagesPath": "/home/bernardo/.nuget/packages/",
+        "outputPath": "/home/bernardo/Desktop/bugtracker/BugTrackerPersistence/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/bernardo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/bernardo/Desktop/bugtracker/BugTrackerDomain/BugTrackerDomain.csproj": {
+                "projectPath": "/home/bernardo/Desktop/bugtracker/BugTrackerDomain/BugTrackerDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/bernardo/Desktop/bugtracker/BugTrackerServices/BugTrackerServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/bernardo/Desktop/bugtracker/BugTrackerServices/BugTrackerServices.csproj",
+        "projectName": "BugTrackerServices",
+        "projectPath": "/home/bernardo/Desktop/bugtracker/BugTrackerServices/BugTrackerServices.csproj",
+        "packagesPath": "/home/bernardo/.nuget/packages/",
+        "outputPath": "/home/bernardo/Desktop/bugtracker/BugTrackerServices/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/bernardo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/bernardo/Desktop/bugtracker/BugTrackerDomain/BugTrackerDomain.csproj": {
+                "projectPath": "/home/bernardo/Desktop/bugtracker/BugTrackerDomain/BugTrackerDomain.csproj"
+              },
+              "/home/bernardo/Desktop/bugtracker/BugTrackerPersistence/BugTrackerPersistence.csproj": {
+                "projectPath": "/home/bernardo/Desktop/bugtracker/BugTrackerPersistence/BugTrackerPersistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "Flunt": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
