@@ -24,6 +24,8 @@ namespace BugTrackerService.ViewModels.Session {
           .HasMinLen(Password, 6, "Password", "Should have at least 6 characters")
           .HasMaxLen(Password, 12, "Password", "Should have at most 12 characters")
       ));
+
+      AddNotifications(EmailContract, PasswordContract);
     }
   }
 }

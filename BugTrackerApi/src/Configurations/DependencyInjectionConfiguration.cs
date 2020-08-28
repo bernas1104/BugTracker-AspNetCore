@@ -14,7 +14,9 @@ namespace BugTrackerApi.Configurations {
     ) {
       services.AddScoped<IPasswordHasher<User>, PasswordHasher<User>>();
       services.AddScoped<IUsersRepository, UsersRepository>();
+
       services.AddTransient<ICreateUserService, CreateUserService>();
+      services.AddTransient<IAuthService, AuthService>();
 
       return services;
     }

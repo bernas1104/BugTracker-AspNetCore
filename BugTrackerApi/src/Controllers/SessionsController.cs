@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
+using BugTrackerService.Interfaces;
 using BugTrackerService.ViewModels.Session;
 
 namespace BugTrackerApi.Controllers {
@@ -8,7 +9,7 @@ namespace BugTrackerApi.Controllers {
   [Produces("application/json")]
   public class SessionsController : ControllerBase {
     public ActionResult<SessionViewModel> Create(
-      // [FromServices] ,
+      [FromServices] IAuthService authService,
       [FromBody] LoginViewModel data
     ) {
       data.Validate();
@@ -16,7 +17,9 @@ namespace BugTrackerApi.Controllers {
       if (data.Invalid)
         return BadRequest(data.Notifications);
 
-      return Created(nameof(Create), "");
+      var session = authService.AuthenticateUser(data);
+
+      return Created(nameof(Create), session);
     }
   }
 }

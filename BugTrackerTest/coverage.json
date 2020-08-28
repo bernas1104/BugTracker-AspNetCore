@@ -4,31 +4,31 @@
       "BugTrackerDomain.User": {
         "System.String BugTrackerDomain.User::get_Id()": {
           "Lines": {
-            "6": 2
+            "6": 9
           },
           "Branches": []
         },
         "System.String BugTrackerDomain.User::get_Email()": {
           "Lines": {
-            "7": 2
+            "7": 14
           },
           "Branches": []
         },
         "System.String BugTrackerDomain.User::get_Password()": {
           "Lines": {
-            "8": 0
+            "8": 18
           },
           "Branches": []
         },
         "System.String BugTrackerDomain.User::get_FirstName()": {
           "Lines": {
-            "9": 2
+            "9": 7
           },
           "Branches": []
         },
         "System.String BugTrackerDomain.User::get_LastName()": {
           "Lines": {
-            "10": 2
+            "10": 7
           },
           "Branches": []
         },
@@ -46,7 +46,7 @@
         },
         "System.DateTime BugTrackerDomain.User::get_CreatedAt()": {
           "Lines": {
-            "13": 2
+            "13": 8
           },
           "Branches": []
         },
@@ -162,31 +162,32 @@
             "29": 0,
             "31": 0,
             "32": 0,
-            "33": 0
+            "33": 0,
+            "34": 0
           },
           "Branches": []
         },
         "System.Void BugTrackerApi.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)": {
           "Lines": {
-            "35": 0,
             "36": 0,
             "37": 0,
             "38": 0,
-            "40": 0,
-            "42": 0,
+            "39": 0,
+            "41": 0,
             "43": 0,
             "44": 0,
-            "46": 0,
-            "48": 0,
+            "45": 0,
+            "47": 0,
             "49": 0,
-            "51": 0,
+            "50": 0,
             "52": 0,
             "53": 0,
-            "54": 0
+            "54": 0,
+            "55": 0
           },
           "Branches": [
             {
-              "Line": 36,
+              "Line": 37,
               "Offset": 9,
               "EndOffset": 11,
               "Path": 0,
@@ -194,7 +195,7 @@
               "Hits": 0
             },
             {
-              "Line": 36,
+              "Line": 37,
               "Offset": 9,
               "EndOffset": 20,
               "Path": 1,
@@ -210,6 +211,39 @@
             "17": 0
           },
           "Branches": []
+        }
+      }
+    },
+    "/home/bernardo/Desktop/bugtracker/BugTrackerApi/src/Controllers/SessionsController.cs": {
+      "BugTrackerApi.Controllers.SessionsController": {
+        "Microsoft.AspNetCore.Mvc.ActionResult`1<BugTrackerService.ViewModels.Session.SessionViewModel> BugTrackerApi.Controllers.SessionsController::Create(BugTrackerService.Interfaces.IAuthService,BugTrackerService.ViewModels.Session.LoginViewModel)": {
+          "Lines": {
+            "14": 2,
+            "15": 2,
+            "17": 2,
+            "18": 1,
+            "20": 1,
+            "22": 1,
+            "23": 2
+          },
+          "Branches": [
+            {
+              "Line": 17,
+              "Offset": 16,
+              "EndOffset": 18,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 17,
+              "Offset": 16,
+              "EndOffset": 38,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
         }
       }
     },
@@ -246,6 +280,36 @@
         }
       }
     },
+    "/home/bernardo/Desktop/bugtracker/BugTrackerApi/src/Configurations/AuthConfiguration.cs": {
+      "BugTrackerApi.Configurations.AuthConfiguration": {
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection BugTrackerApi.Configurations.AuthConfiguration::AddAuthConfiguration(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "34": 0,
+            "35": 0
+          },
+          "Branches": []
+        }
+      }
+    },
     "/home/bernardo/Desktop/bugtracker/BugTrackerApi/src/Configurations/AutoMapperConfiguration.cs": {
       "BugTrackerApi.Configurations.AutoMapperConfiguration": {
         "System.Void BugTrackerApi.Configurations.AutoMapperConfiguration::.ctor()": {
@@ -270,9 +334,10 @@
             "14": 0,
             "15": 0,
             "16": 0,
-            "17": 0,
+            "18": 0,
             "19": 0,
-            "20": 0
+            "21": 0,
+            "22": 0
           },
           "Branches": []
         }
@@ -404,6 +469,173 @@
         }
       }
     },
+    "/home/bernardo/Desktop/bugtracker/BugTrackerServices/src/ViewModels/Session/LoginViewModel.cs": {
+      "BugTrackerService.ViewModels.Session.LoginViewModel": {
+        "System.String BugTrackerService.ViewModels.Session.LoginViewModel::get_Email()": {
+          "Lines": {
+            "6": 26
+          },
+          "Branches": []
+        },
+        "System.String BugTrackerService.ViewModels.Session.LoginViewModel::get_Password()": {
+          "Lines": {
+            "7": 26
+          },
+          "Branches": []
+        },
+        "System.Void BugTrackerService.ViewModels.Session.LoginViewModel::Validate()": {
+          "Lines": {
+            "9": 2,
+            "10": 2,
+            "11": 2,
+            "13": 2,
+            "14": 2,
+            "16": 2,
+            "17": 2,
+            "18": 2,
+            "19": 2,
+            "20": 2,
+            "22": 2,
+            "23": 2,
+            "24": 2,
+            "25": 2,
+            "26": 2,
+            "28": 2,
+            "29": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/bernardo/Desktop/bugtracker/BugTrackerServices/src/ViewModels/Session/SessionViewModel.cs": {
+      "BugTrackerService.ViewModels.Session.SessionViewModel": {
+        "System.String BugTrackerService.ViewModels.Session.SessionViewModel::get_Id()": {
+          "Lines": {
+            "5": 10
+          },
+          "Branches": []
+        },
+        "System.String BugTrackerService.ViewModels.Session.SessionViewModel::get_Email()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime BugTrackerService.ViewModels.Session.SessionViewModel::get_ValidFrom()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime BugTrackerService.ViewModels.Session.SessionViewModel::get_ValidTo()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.String BugTrackerService.ViewModels.Session.SessionViewModel::get_Token()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/bernardo/Desktop/bugtracker/BugTrackerServices/src/Implementations/AuthService.cs": {
+      "BugTrackerService.Implementations.AuthService": {
+        "BugTrackerService.ViewModels.Session.SessionViewModel BugTrackerService.Implementations.AuthService::AuthenticateUser(BugTrackerService.ViewModels.Session.LoginViewModel)": {
+          "Lines": {
+            "31": 4,
+            "32": 4,
+            "34": 4,
+            "35": 1,
+            "37": 3,
+            "38": 3,
+            "40": 3,
+            "41": 1,
+            "43": 3,
+            "44": 1,
+            "45": 1,
+            "46": 1,
+            "48": 2,
+            "50": 2,
+            "51": 2,
+            "52": 2,
+            "53": 2,
+            "54": 2,
+            "55": 2,
+            "56": 2,
+            "57": 2
+          },
+          "Branches": [
+            {
+              "Line": 34,
+              "Offset": 25,
+              "EndOffset": 27,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 34,
+              "Offset": 25,
+              "EndOffset": 33,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            },
+            {
+              "Line": 40,
+              "Offset": 66,
+              "EndOffset": 68,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 40,
+              "Offset": 66,
+              "EndOffset": 74,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 43,
+              "Offset": 82,
+              "EndOffset": 84,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 43,
+              "Offset": 82,
+              "EndOffset": 123,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 2
+            }
+          ]
+        },
+        "System.Void BugTrackerService.Implementations.AuthService::.ctor(BugTrackerPersistence.Repositories.Interfaces.IUsersRepository,Microsoft.AspNetCore.Identity.IPasswordHasher`1<BugTrackerDomain.User>,AutoMapper.IMapper,Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "19": 4,
+            "20": 4,
+            "21": 4,
+            "22": 4,
+            "23": 4,
+            "24": 8,
+            "25": 4,
+            "26": 4,
+            "27": 4,
+            "28": 4,
+            "29": 4
+          },
+          "Branches": []
+        }
+      }
+    },
     "/home/bernardo/Desktop/bugtracker/BugTrackerServices/src/Implementations/CreateUserService.cs": {
       "BugTrackerService.Implementations.CreateUserService": {
         "BugTrackerService.ViewModels.User.UserViewModel BugTrackerService.Implementations.CreateUserService::CreateNewUser(BugTrackerService.ViewModels.User.CreateUserViewModel)": {
@@ -448,6 +680,64 @@
             "23": 2,
             "24": 2,
             "25": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/bernardo/Desktop/bugtracker/BugTrackerServices/src/Implementations/TokenService.cs": {
+      "BugTrackerService.Implementations.TokenService": {
+        "BugTrackerService.DTOs.TokenDTO BugTrackerService.Implementations.TokenService::GenerateToken(Microsoft.Extensions.Configuration.IConfiguration,BugTrackerDomain.User)": {
+          "Lines": {
+            "14": 2,
+            "15": 2,
+            "17": 2,
+            "19": 2,
+            "20": 2,
+            "22": 2,
+            "23": 2,
+            "24": 2,
+            "25": 2,
+            "26": 2,
+            "27": 2,
+            "28": 2,
+            "29": 2,
+            "30": 2,
+            "31": 2,
+            "32": 2,
+            "33": 2,
+            "34": 2,
+            "35": 2,
+            "36": 2,
+            "38": 2,
+            "40": 2,
+            "41": 2,
+            "42": 2,
+            "43": 2,
+            "44": 2,
+            "45": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/bernardo/Desktop/bugtracker/BugTrackerServices/src/DTOs/TokenDTO.cs": {
+      "BugTrackerService.DTOs.TokenDTO": {
+        "System.String BugTrackerService.DTOs.TokenDTO::get_Token()": {
+          "Lines": {
+            "5": 4
+          },
+          "Branches": []
+        },
+        "System.DateTime BugTrackerService.DTOs.TokenDTO::get_ValidFrom()": {
+          "Lines": {
+            "6": 4
+          },
+          "Branches": []
+        },
+        "System.DateTime BugTrackerService.DTOs.TokenDTO::get_ValidTo()": {
+          "Lines": {
+            "7": 4
           },
           "Branches": []
         }
