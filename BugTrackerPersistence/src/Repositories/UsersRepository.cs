@@ -26,7 +26,7 @@ namespace BugTrackerPersistence.Repositories {
       return user;
     }
 
-    private void SaveChanges() {
+    public void SaveChanges() {
       dbContext.SaveChanges();
     }
   }

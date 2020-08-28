@@ -5,7 +5,7 @@ using Bogus;
 using BugTrackerService.ViewModels.User;
 
 namespace BugTrackerTest.Bogus.ViewModels.User {
-  public static class BogusCreateUserViewModel {
+  public static class BogusUserViewModels {
     public static UserViewModel UserViewModelFaker() {
       var userViewModel = new Faker<UserViewModel>()
         .RuleFor(x => x.Id, () => Guid.NewGuid().ToString())

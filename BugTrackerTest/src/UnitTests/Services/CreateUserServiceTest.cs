@@ -34,7 +34,7 @@ namespace BugTrackerTest.UnitTests.Services {
     [Fact]
     public void Should_Be_Able_To_Create_New_User() {
       // Arrange
-      var data = BogusCreateUserViewModel.CreateUserViewModelFaker();
+      var data = BogusUserViewModels.CreateUserViewModelFaker();
 
       var user = new User() {
         Id = Guid.NewGuid().ToString(),
@@ -73,7 +73,7 @@ namespace BugTrackerTest.UnitTests.Services {
     [Fact]
     public void Should_Not_Be_Able_To_Create_New_User_If_Email_Not_Unique() {
       // Arrange
-      var data = BogusCreateUserViewModel.CreateUserViewModelFaker();
+      var data = BogusUserViewModels.CreateUserViewModelFaker();
 
       usersRepository.Setup(x => x.FindByEmail(data.Email)).Returns(new User());
 

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9QeHufrbkFGFmXhwSTbilqkpoT6yKVs48nDOb758bYYwGHCjckIg7zYErD34yQ9NOckwldw7uI0w3dH9HwoYoA==",
+  "dgSpecHash": "IcaXwk70bGphlIbiHBQ6u5zYysLJSXlY4nqM2T+HyNpLuuX+jFItFiVSOQSL5tcrj/Ue+MiwLfzIuZUk2+vWvg==",
   "success": true,
   "projectFilePath": "/home/bernardo/Desktop/bugtracker/BugTrackerPersistence/BugTrackerPersistence.csproj",
   "expectedPackageFiles": [

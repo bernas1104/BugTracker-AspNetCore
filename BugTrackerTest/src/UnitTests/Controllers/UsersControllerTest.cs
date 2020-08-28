@@ -23,8 +23,8 @@ namespace BugTrackerTest.UnitTests.Controllers {
     [Fact]
     public void Should_Return_201_Status_Code_If_User_Created() {
       // Arrange
-      var data = BogusCreateUserViewModel.CreateUserViewModelFaker();
-      var userViewModel = BogusCreateUserViewModel.UserViewModelFaker();
+      var data = BogusUserViewModels.CreateUserViewModelFaker();
+      var userViewModel = BogusUserViewModels.UserViewModelFaker();
 
       createUserService.Setup(x => x.CreateNewUser(data)).Returns(userViewModel);
 
