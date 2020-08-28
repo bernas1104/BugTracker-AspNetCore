@@ -12,7 +12,7 @@ using BugTrackerService.ViewModels.User;
 using BugTrackerTest.Bogus.ViewModels.User;
 using BugTrackerPersistence.Repositories.Interfaces;
 
-namespace BugTrackerTest {
+namespace BugTrackerTest.UnitTests.Services {
   public class CreateUserServiceTest {
     private readonly Mock<IUsersRepository> usersRepository;
     private readonly Mock<IPasswordHasher<User>> passwordHasher;
@@ -63,7 +63,6 @@ namespace BugTrackerTest {
 
       // Act
       var response = createUserService.CreateNewUser(data);
-      Console.WriteLine(response.Id);
 
       // Assert
       Assert.True(Guid.TryParse(response.Id, out Guid _));

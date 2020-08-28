@@ -30,6 +30,7 @@ namespace BugTrackerApi {
 
       services.ResolveDependencies();
       services.AddAutoMapper(typeof(Startup));
+      services.AddAuthConfiguration(Configuration);
     }
 
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env) {

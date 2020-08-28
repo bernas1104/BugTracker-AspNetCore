@@ -1,5 +1,6 @@
 using Flunt.Validations;
 using Flunt.Notifications;
+using System.Collections.Generic;
 
 namespace BugTrackerService.ViewModels.User {
   public class CreateUserViewModel : Notifiable, IValidatable {
@@ -16,12 +17,8 @@ namespace BugTrackerService.ViewModels.User {
       var PasswordContract = new Contract()
         .IsNotNullOrEmpty(Password, "Password", "Is required");
 
-      var PasswordConfirmationContract = new Contract().AreEquals(
-        PasswordConfirmation,
-        Password,
-        "Password Confirmation",
-        "Should match 'password'"
-      );
+      var PasswordConfirmationContract = new Contract()
+        .IsNotNullOrEmpty(PasswordConfirmation, "Password Confirmation", "IsRequired");
 
       var FirstNameContract = new Contract()
         .IsNotNullOrEmpty(FirstName, "First Name", "Is required");
@@ -39,6 +36,19 @@ namespace BugTrackerService.ViewModels.User {
         contract
           .HasMinLen(Password, 6, "Password", "Should be at least 6 characters")
           .HasMaxLen(Password, 12, "Password", "Should be at most 12 characters")
+      ));
+
+      PasswordConfirmationContract.IfNotNull(PasswordConfirmation, contract => (
+        contract
+          .HasMinLen(PasswordConfirmation, 6, "Password", "Should be at least 6 characters")
+          .HasMaxLen(PasswordConfirmation, 12, "Password", "Should be at most 12 characters")
+          .AreEquals(
+            PasswordConfirmation,
+            Password,
+            "Password Confirmation",
+            "Should match 'password'",
+            System.StringComparison.Ordinal
+          )
       ));
 
       FirstNameContract.IfNotNull(FirstName, contract => (

@@ -138,3 +138,10 @@
 /home/bernardo/Desktop/bugtracker/BugTrackerTest/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.JsonPatch.dll
 /home/bernardo/Desktop/bugtracker/BugTrackerTest/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 /home/bernardo/Desktop/bugtracker/BugTrackerTest/bin/Debug/netcoreapp3.1/Newtonsoft.Json.Bson.dll
+/home/bernardo/Desktop/bugtracker/BugTrackerTest/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/bernardo/Desktop/bugtracker/BugTrackerTest/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/bernardo/Desktop/bugtracker/BugTrackerTest/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll
+/home/bernardo/Desktop/bugtracker/BugTrackerTest/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll
+/home/bernardo/Desktop/bugtracker/BugTrackerTest/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/bernardo/Desktop/bugtracker/BugTrackerTest/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
+/home/bernardo/Desktop/bugtracker/BugTrackerTest/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll

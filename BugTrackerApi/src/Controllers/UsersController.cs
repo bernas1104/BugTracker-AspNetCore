@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Authorization;
 namespace BugTrackerApi.Controllers {
   [ApiController]
   [Route("v1/[controller]")]
+  [Produces("application/json")]
   public class UsersController : ControllerBase {
     [HttpPost]
     [Route("")]
@@ -22,7 +23,7 @@ namespace BugTrackerApi.Controllers {
 
       var createdUser = service.CreateNewUser(user);
 
-      return Ok(createdUser);
+      return Created(nameof(Create), createdUser);
     }
   }
 }
